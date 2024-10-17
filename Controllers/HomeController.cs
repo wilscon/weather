@@ -40,6 +40,7 @@ namespace Weather.Controllers
             ViewBag.State = state;
             ViewBag.Temperature = weatherData.Temperature;
             ViewBag.WeatherDescription = weatherData.WeatherDescription;
+            ViewBag.image = "images/cloud.png";
 
             return View();
         }
